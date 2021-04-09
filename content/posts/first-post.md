@@ -1,7 +1,7 @@
 ---
 title: "First Post"
 date: 2021-04-09T01:12:08-06:00
-draft: true
+draft: false
 tags: [meta]
 ---
 
