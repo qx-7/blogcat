@@ -1,0 +1,46 @@
+baseURL: "http://blogcat.tk/"
+languageCode: "en-us"
+title: "blogcat"
+paginate: 5
+theme: "PaperMod"
+
+params:
+    ShowBreadCrumbs: true
+    ShowPostNavLinks: true
+    title: "blogcat"
+    description: "the cool cat blog"
+    author: "blogcat"
+    ShowReadingTime: true
+    keywords: [blog, blogcat, home]
+    
+    homeInfoParams:
+        Title: blogcat.tk
+        Content: >
+            This is **blogcat**, the cool cat blog.
+            
+            - Feel free to browse around, I'll be over here if you need me :)
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+        
+menu:
+    main:
+        - identifier: about
+          name: About
+          url: /about/
+          weight: 100
+        - identifier: archive
+          name: Archive
+          url: /archive/
+          weight: 200
+        - identifier: tags
+          name: Tags
+          url: /tags/
+          weight: 300
+        - identifier: search
+          name: Search
+          url: /search/
+          weight: 400
