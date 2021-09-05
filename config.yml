@@ -3,7 +3,6 @@ languageCode: "en-us"
 title: "blogcat"
 paginate: 5
 theme: "PaperMod"
-publishdir: "docs"
 
 params:
     ShowBreadCrumbs: true
